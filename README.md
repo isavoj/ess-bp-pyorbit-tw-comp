@@ -1,12 +1,11 @@
 # Plan for Comparison
-If you agree, I provide you with the initial distribution for every section.
-Or whatever you prefer, Benjamin. 
----
+- If you agree, I provide you with the initial distribution for every section.  (Or whatever you prefer, Benjamin)
+- 
 
 ## MEBT
 
 - [ ] **Objective**: We are considering the *first cavity* in the MEBT line. (GAP vs FIELD)
-- [x] **Distribution File**: Please see the file located in `MEBT/distribution` (or [provide link here](https://example.com/MEBT/distribution) if available).
+- [x] **Distribution File**: Please see the file located in `MEBT/distribution`.
 
 ---
 
