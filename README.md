@@ -34,26 +34,26 @@ Compare **TraceWin** GAP-models and Field-Map-models with **PyOrbit**.
 
 # Beam Parameters MEBT
 
-| **Parameter**                  | **X**       | **Y**       | **Z**       |
-|--------------------------------|-------------|-------------|-------------|
-| **Twiss Alpha** \(\alpha_{x,x'}\) / \(\alpha_{y,y'}\) / \(\alpha_z\) | -0.14280953     | -0.23746869     | -0.19102336   |
-| **Twiss Beta** \(\beta_{x,x'}\) / \(\beta_{y,y'}\) / \(\beta_z\)     | 0.15035595  | 0.26458384     | 0.46179172     |
-| **Sigma** \(\sigma_x\), \(\sigma_{x'}\), \(\sigma_y\), \(\sigma_{y'}\), \(\sigma_\phi\), \(\sigma_w\) | (value) | (value) | (value) |
-| **\(\phi\)** (Phase)           | (value)     | (value)     | (value)     |
-| **\(w\)** (Energy Spread)      | (value)     | (value)     | (value)     |
-| **Particles** (\(N\))          | (value)     | (value)     | (value)     |
-| **Current** (\(I\))            | (value)     | (value)     | (value)     |
-| **Energy** (\(E\))             | (value)     | (value)     | (value)     |
-| **Phase** (\(\theta\))         | (value)     | (value)     | (value)     |
-| **Frequency** (\(f\))          | (value)     | (value)     | (value)     |
-| **\(M_0\)**                    | (value)     | (value)     | (value)     |
-| **Norm. RMS Emittance** \(\varepsilon_{n,x,x'}\) / \(\varepsilon_{n,y,y'}\) / \(\varepsilon_{n,z}\) | (value) | (value) | (value) |
+# Beam Parameters MEBT
 
-> **Notes**:
-> - The **Parameter** column lists the items you requested: Twiss \(\alpha\), Twiss \(\beta\), \(\sigma\), \(\phi\), \(w\), particles, current, energy, phase, frequency, \(M_0\), and normalized RMS emittances.
-> - Columns **X**, **Y**, and **Z** let you place specific values for each plane (transverse \(x\), transverse \(y\), and longitudinal \(z\)).
-> - For \(\sigma\)-values (beam size in position and angle), you can split them out more explicitly (e.g., \(\sigma_x\), \(\sigma_{x'}\), etc.) if you prefer separate table rows or additional columns.
-> - Replace **(value)** with the actual numeric data (e.g., “2.0 mm” or “-1.2 deg,” etc.).
+# Beam Parameters MEBT
+
+| **Parameter**                           | **X**        | **Y**        | **Z**        | **Global**     |
+|-----------------------------------------|------------:|------------:|------------:|---------------:|
+| **Twiss Alpha** \($\alpha_{x,x'}$, $\alpha_{y,y'}$, $\alpha_z$\) | -0.14280953 | -0.23746869 | -0.19102336 |      -         |
+| **Twiss Beta** \($\beta_{x,x'}$, $\beta_{y,y'}$, $\beta_z$\)     |  0.15035595 |  0.26458384 |  0.46179172 |      -         |
+| **Sigma (mm)** \($\sigma_x$, $\sigma_y$, $\sigma_z$\)            |  0.5437     |  0.7268     |  1.5324     |      -         |
+| **Sigma (mrad)** \($\sigma_{x'}$, $\sigma_{y'}$, $\sigma_{z'}$\) |  3.6527     |  2.8235     |  3.3783     |      -         |
+| **Norm. RMS Emittance** \($\varepsilon_{n,x,x'}$, $\varepsilon_{n,y,y'}$, $\varepsilon_{n,z}$\) |  0.1729169   |  0.1756221   |  0.4507168   |  -             |
+| **Phase** \($\phi$\)                                              |     -       |     -       |     -       |  (value)       |
+| **Energy Spread** \($w$\)                                         |     -       |     -       |     -       |  (value)       |
+| **Particles (Nbr)** \($N$\)                                       |     -       |     -       |     -       |  8660          |
+| **Current** \($I$\)                                               |     -       |     -       |     -       |  0             |
+| **Kinetic Energy (MeV)** \($E$\)                                  |     -       |     -       |     -       |  3.6224112     |
+| **Phase** \($\theta$\)                                            |     -       |     -       |     -       | -63.314        |
+| **Frequency (MHz)** \($f$\)                                       |     -       |     -       |     -       |  352.21        |
+| **$M_0$ (MeV)**                                                   |     -       |     -       |     -       |  938.276       |
+
 
 
 
