@@ -38,27 +38,28 @@ Compare **TraceWin** GAP-models and Field-Map-models with **PyOrbit**.
 
 # Beam Parameters MEBT
 
-| **Parameter**                           | **X**        | **Y**        | **Z**        | **Global**     |
+| **Parameter**                           | **X**        | **Y**        | **Z**        | **w/ \$\theta$ / Global**     |
 |-----------------------------------------|------------:|------------:|------------:|---------------:|
-| **Twiss Alpha** \($\alpha_{x,x'}$, $\alpha_{y,y'}$, $\alpha_z$\) | -0.14280953 | -0.23746869 | -0.19102336 |      -         |
-| **Twiss Beta** \($\beta_{x,x'}$, $\beta_{y,y'}$, $\beta_z$\)     |  0.15035595 |  0.26458384 |  0.46179172 |      -         |
-| **Sigma (mm)** \($\sigma_x$, $\sigma_y$, $\sigma_z$\)            |  0.5437     |  0.7268     |  1.5324     |      -         |
-| **Sigma (mrad)** \($\sigma_{x'}$, $\sigma_{y'}$, $\sigma_{z'}$\) |  3.6527     |  2.8235     |  3.3783     |      -         |
-| **Norm. RMS Emittance** \($\varepsilon_{n,x,x'}$, $\varepsilon_{n,y,y'}$, $\varepsilon_{n,z}$\) |  0.1729169   |  0.1756221   |  0.4507168   |  -             |
-| **Energy Spread** \($\delta w$\)                                         |     -       |     -       |     -       |  13.116279       |
+| **Twiss Alpha** \($\alpha_{x,x'}$, $\alpha_{y,y'}$, $\alpha_{z,z'}$\) | -0.14280953 | -0.23746869 | -0.19102336 |      -         |
+| **Twiss Beta (mm/n.mrad) and (deg/n.MeV)** \($\beta_{x,x'}$, $\beta_{y,y'}$, $\beta_{z,z'}$, $\beta_{\phi,w}$\)     |  0.15035595 |  0.26458384 |  0.46179172 |      305.9117        |
+| **Sigma (mm) and (deg)** \($\sigma_x$, $\sigma_y$, $\sigma_z$ , $\sigma_\phi$\)          |  0.5437     |  0.7268     |  1.5324     |      7.3970         |
+| **Sigma (mrad) and (keV)** \($\sigma_{x'}$, $\sigma_{y'}$, $\sigma_{z'}$ , $\sigma_w$\)  |  3.6527     |  2.8235     |  3.3783     |      24.6174         |
+| **Norm. RMS Emittance(pi.mm.mrad), and (pi.deg.MeV)** \($\varepsilon_{x,x'}$, $\varepsilon_{y,y'}$, $\varepsilon_{z,z'}$, $\varepsilon_{\phi,w}$\) |  0.1729169   |  0.1756221   |  0.4507168   |  0.1788611             |
+| **Energy Spread (MeV)** \($\delta w$\)                                         |     -       |     -       |     -       |  0      |
+| **Phase (deg)** \($\delta \theta$\)                                            |     -       |     -       |     -       | -63.314        |
 | **Particles (Nbr)** \($N$\)                                       |     -       |     -       |     -       |  8660          |
 | **Current** \($I$\)                                               |     -       |     -       |     -       |  0             |
 | **Kinetic Energy (MeV)** \($E$\)                                  |     -       |     -       |     -       |  3.6224112     |
-| **Phase** \($\delta \theta$\)                                            |     -       |     -       |     -       | -63.314        |
+| **Realtivistic Beta** \($B$\)                                  |     -       |     -       |     -       |  0.0876     |
 | **Frequency (MHz)** \($f$\)                                       |     -       |     -       |     -       |  352.21        |
 | **$M_0$ (MeV)**                                                   |     -       |     -       |     -       |  938.276       |
 
 ```math
 \begin{bmatrix}
- 2.955900 \times 10^{-7} & 2.807543 \times 10^{-7} & 0 & 0 & 0 & 0 \\
- 2.807543 \times 10^{-7} & 1.334187 \times 10^{-5} & 0 & 0 & 0 & 0 \\
- 0 & 0 & 5.282922 \times 10^{-7} & 4.741517 \times 10^{-7} & 0 & 0 \\
- 0 & 0 & 4.741517 \times 10^{-7} & 7.972095 \times 10^{-6} & 0 & 0 \\
- 0 & 0 & 0 & 0 & 2.348198 \times 10^{-6} & 9.788631 \times 10^{-7} \\
- 0 & 0 & 0 & 0 & 9.788631 \times 10^{-7} & 1.159048 \times 10^{-5}
+(m) 2.955900 \times 10^{-7} & 2.807543 \times 10^{-7} & 0 & 0 & 0 & 0 \\
+(rad) 2.807543 \times 10^{-7} & 1.334187 \times 10^{-5} & 0 & 0 & 0 & 0 \\
+(m) 0 & 0 & 5.282922 \times 10^{-7} & 4.741517 \times 10^{-7} & 0 & 0 \\
+ (rad)0 & 0 & 4.741517 \times 10^{-7} & 7.972095 \times 10^{-6} & 0 & 0 \\
+ (m)0 & 0 & 0 & 0 & 2.348198 \times 10^{-6} & 9.788631 \times 10^{-7} \\
+\Delta_P / P 0 & 0 & 0 & 0 & 9.788631 \times 10^{-7} & 1.159048 \times 10^{-5}
 \end{bmatrix}
