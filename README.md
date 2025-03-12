@@ -7,7 +7,7 @@ Compare **TraceWin** GAP-models and Field-Map-models with **PyOrbit**.
 - **0 current** to begin with.
 - What exactly do we want to compare?
 ---
-
+(Attached is a .py file to load the particle distribution from tracewin in python.=
 ## MEBT
 
 - [ ] **Objective**: We are considering the *first cavity* in the MEBT line. *(GAP vs FIELD)*
