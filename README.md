@@ -30,12 +30,6 @@ Compare **TraceWin** GAP-models and Field-Map-models with **PyOrbit**.
 - [ ] **Distribution File from TW**: 
 
 ---
-
-
-# Beam Parameters MEBT
-
-# Beam Parameters MEBT
-
 # Beam Parameters MEBT
 
 | **Parameter**                           | **X**        | **Y**        | **Z**        | **Global**     |
